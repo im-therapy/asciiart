@@ -1,15 +1,5 @@
-# Color ASCII Art Generator [RU](README_RU.md)
+# Color ASCII Art Generator
 Конвертирует изображения (PNG, JPG, SVG) в цветной ASCII-арт и сохраняет в PNG или текстовый файл.
-
-
-## 📂 Структура проекта
-``
-asciiart/
-├─ color_ascii.py # основной скрипт
-├─ fonts/
-│ └─ DejaVuSansMono-Bold.ttf # встроенный шрифт для PNG
-└─ asciiarts/              # сюда сохраняются PNG и текстовые файлы ASCII
-``
 
 ## , Установка
 1. Клонируйте репозиторий:
