@@ -5,7 +5,7 @@ Converts images (PNG, JPG, SVG) to ASCII color art and saves it to PNG or text f
 ## Installation
 1. Clone the repository:
 `` 
-git clone <repository url>
+git clone https://github.com/im-therapy/asciiart/
 cd asciiart
 ``
 2. Create a virtual environment (recommended):
@@ -28,19 +28,19 @@ python color_ascii.py path to the image
 * If SAVE_PNG = False, ASCII art will be output to the terminal and saved as asciiart.txt .
 
 ## ⚙ Settings
-The script settings are at the beginning `color_ascii.py `:
-- `ASCII_CHARS' — characters by brightness (from dark to light)
-- `FIXED_HEIGHT' — height of ASCII art in lines
-- `SYMBOL_RATIO' — the ratio of the width to the height of the symbol
-- `TRANSPARENT_GREYS' — make dark pixels transparent
-- `GREY_THRESHOLD' — threshold for transparent pixels
+The script settings are at the beginning `color_ascii.py`:
+- `ASCII_CHARS` — characters by brightness (from dark to light)
+- `FIXED_HEIGHT` — height of ASCII art in lines
+- `SYMBOL_RATIO` — the ratio of the width to the height of the symbol
+- `TRANSPARENT_GREYS` — make dark pixels transparent
+- `GREY_THRESHOLD` — threshold for transparent pixels
 - `SATURATION` — color saturation
-- `BRIGHTNESS' — brightness
-- `GAMMA' — gamma correction
+- `BRIGHTNESS` — brightness
+- `GAMMA` — gamma correction
 - `CONTRAST` — contrast ratio
-- `USE_TRUECOLOR' — True = 24-bit color, False = 256 colors ANSI
-- `SAVE_PNG' — True = save PNG, False = output to terminal
-- `FONT_PATH' is the path to the PNG font (fonts/DejaVuSansMono-Bold.ttf)
+- `USE_TRUECOLOR` — True = 24-bit color, False = 256 colors ANSI
+- `SAVE_PNG` — True = save PNG, False = output to terminal
+- `FONT_PATH` is the path to the PNG font (fonts/DejaVuSansMono-Bold.ttf)
 - `FONT_SIZE` is the font size for PNG
 - `OUTPUT_DIR` — folder for saving files
 
