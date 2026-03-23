@@ -2,15 +2,6 @@
 Converts images (PNG, JPG, SVG) to ASCII color art and saves it to PNG or text file.
 
 
-## 📂 The structure of the project
-``
-asciiart/
-├─ color_ascii.py # main script
-├─ fonts/
-│ └─ DejaVuSansMono-Bold.ttf # embedded font for PNG
-└─ asciiarts/              # PNG and ASCII text files are saved here
-``
-
 ## , Installation
 1. Clone the repository:
 `` 
