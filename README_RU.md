@@ -1,7 +1,7 @@
 # Color ASCII Art Generator
 Конвертирует изображения (PNG, JPG, SVG) в цветной ASCII-арт и сохраняет в PNG или текстовый файл.
 
-## , Установка
+## Установка
 1. Клонируйте репозиторий:
 `` 
 git clone <repository url>
