@@ -2,7 +2,7 @@
 Converts images (PNG, JPG, SVG) to ASCII color art and saves it to PNG or text file.
 
 
-## , Installation
+## Installation
 1. Clone the repository:
 `` 
 git clone <repository url>
