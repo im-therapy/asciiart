@@ -4,7 +4,7 @@
 ## Установка
 1. Клонируйте репозиторий:
 `` 
-git clone <repository url>
+git clone https://github.com/im-therapy/asciiart/
 cd asciiart
 ``
 2. Создайте виртуальное окружение (рекомендуется):
@@ -28,18 +28,18 @@ python color_ascii.py путь_к_изображению
 
 ## ⚙ Настройки
 Настройки скрипта находятся в начале `color_ascii.py`:
-- `ASCII_CHARS' — символы по яркости (от тёмного к светлому)
-- `FIXED_HEIGHT' — высота ASCII-арта в строках
-- `SYMBOL_RATIO' — соотношение ширины к высоте символа
-- `TRANSPARENT_GREYS' — делать тёмные пиксели прозрачными
-- `GREY_THRESHOLD' — порог для прозрачных пикселей
+- `ASCII_CHARS` — символы по яркости (от тёмного к светлому)
+- `FIXED_HEIGHT` — высота ASCII-арта в строках
+- `SYMBOL_RATIO` — соотношение ширины к высоте символа
+- `TRANSPARENT_GREYS` — делать тёмные пиксели прозрачными
+- `GREY_THRESHOLD` — порог для прозрачных пикселей
 - `SATURATION` — насыщенность цвета
-- `BRIGHTNESS' — яркость
-- `GAMMA' — гамма-коррекция
+- `BRIGHTNESS` — яркость
+- `GAMMA` — гамма-коррекция
 - `CONTRAST` — коэффициент контрастности
-- `USE_TRUECOLOR' — True = 24-битный цвет, False = 256 цветов ANSI
-- `SAVE_PNG' — True = сохранять PNG, False = вывод в терминал
-- `FONT_PATH' — путь к шрифту для PNG (fonts/DejaVuSansMono-Bold.ttf)
+- `USE_TRUECOLOR` — True = 24-битный цвет, False = 256 цветов ANSI
+- `SAVE_PNG` — True = сохранять PNG, False = вывод в терминал
+- `FONT_PATH` — путь к шрифту для PNG (fonts/DejaVuSansMono-Bold.ttf)
 - `FONT_SIZE` — размер шрифта для PNG
 - `OUTPUT_DIR` — папка для сохранения файлов
 
